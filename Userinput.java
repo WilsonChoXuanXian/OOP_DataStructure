@@ -2,20 +2,20 @@ import java.util.Scanner;
 
 public class Userinput {
     public static void main (String[] args){
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner (System.in);     // scan user input
 
-        System.out.print("Enter first name: ");
-        String firstname = input.next();            // read a string
-        System.out.print("Enter last name: ");
-        String lastname = input.nextLine();         // read a line of string
+        System.out.print("Enter a word: ");
+        String word = input.next();            // read a string
+        System.out.print("Enter full name: ");
+        String fullName = input.nextLine();         // read a line of string
         System.out.print("Enter an integer: ");
         int integer = input.nextInt();              // read an integer
         System.out.print("Enter a double: ");
-        double adouble = input.nextDouble();        // read a double
+        double aDouble = input.nextDouble();        // read a double
 
-        System.out.println(firstname);
-        System.out.println(lastname);
+        System.out.println(word);
+        System.out.println(fullName);
         System.out.println(integer);
-        System.out.println(adouble);
+        System.out.println(aDouble);
     }
 }
