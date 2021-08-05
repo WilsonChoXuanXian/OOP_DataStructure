@@ -1,3 +1,5 @@
+package Lecture_OOPDS;
+
 import java.util.Scanner;
 
 public class OrderTwoCities {
