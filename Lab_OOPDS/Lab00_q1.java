@@ -22,7 +22,7 @@ public class Lab00_q1 {
         // System.out.println();
 
         double sum = 0;
-        for(int i = 0; i < prices.length; i++)
+        for (int i = 0; i < prices.length; i++)
             sum += prices[i];
         
         System.out.print("Sum of all items: " + sum);
