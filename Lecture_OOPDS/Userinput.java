@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Userinput {
     public static void main (String[] args){
-        Scanner input = new Scanner (System.in);     // scan user input
+        Scanner input = new Scanner (System.in);    // scan user input
 
         System.out.print("Enter a word: ");
-        String word = input.next();            // read a string
+        String word = input.next();                 // read a string
         System.out.print("Enter full name: ");
-        String fullName = input.nextLine();         // read a line of string
+        String fullName = input.nextLine().trim();  // read a line of string , uses .trim() to get rid of all sapces before words
         System.out.print("Enter an integer: ");
         int integer = input.nextInt();              // read an integer
         System.out.print("Enter a double: ");
