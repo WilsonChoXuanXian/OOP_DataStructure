@@ -6,7 +6,7 @@ public class Lab01_q1 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter phone number: ");
-        String phoneNumber = input.nextLine();
+        String phoneNumber = input.next();
 
         int size = phoneNumber.length();
         char[] character = new char[size];
