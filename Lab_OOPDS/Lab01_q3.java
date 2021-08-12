@@ -9,8 +9,8 @@ public class Lab01_q3 {
         Scanner input = new Scanner(System.in);
         String word;
 
+        System.out.print("Enter a word (0 to end): ");
         do{
-            System.out.print("Enter a word (0 to end): ");
             word = input.next();
             if (word.equals("0"))
                 break;
