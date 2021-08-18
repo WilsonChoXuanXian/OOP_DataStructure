@@ -1,8 +1,8 @@
 package Lab_OOPDS.Lab02_q1;
 
 public class Rectangle {
-    private double width = 1;
-    private double height = 1;
+    private double width;
+    private double height;
     private static int numberOfRectangles;
 
     public Rectangle(){
