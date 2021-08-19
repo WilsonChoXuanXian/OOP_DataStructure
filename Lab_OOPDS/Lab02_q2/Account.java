@@ -14,6 +14,7 @@ public class Account {
             balance = 100;
         this.id = id;
         this.balance = balance;
+        dateCreated = new java.util.Date();
     }
 
     public int getId() {
@@ -28,14 +29,14 @@ public class Account {
         return dateCreated;
     }
 
-    public void withdraw(double withdrawAmmount) {
-        if (balance > withdrawAmmount)
-            balance -= withdrawAmmount;
+    public void withdraw(double withdrawAmount) {
+        if (balance > withdrawAmount)
+            balance -= withdrawAmount;
         else
             System.out.println("Error: Insufficient balance");
     }
 
-    public void deposit(double depositAmmount) {
-        balance += depositAmmount;
+    public void deposit(double depositAmount) {
+        balance += depositAmount;
     }
 }
