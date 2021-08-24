@@ -25,11 +25,10 @@ public class Triangle {
     }
 
     public String toString() {
-        String string = "Points = " + 
+        return "Points = " + 
                             points[0].toString() + " " + 
                                 points[1].toString() + " " + 
                                         points[2].toString() + 
                         ". Perimeter = " + perimeter;
-        return string;
     }
 }

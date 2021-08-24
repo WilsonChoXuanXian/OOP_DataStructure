@@ -14,14 +14,10 @@ public class Point {
     }
 
     public double distance(Point p) {
-        double d = Math.sqrt(Math.pow(p.x - x, 2) + Math.pow(p.y - y, 2));
-        
-        return d;
+        return Math.sqrt(Math.pow(p.x - x, 2) + Math.pow(p.y - y, 2));
     }
 
     public String toString() {
-        String coordinate = "(" + x + "," + y + ")";
-
-        return coordinate;
+        return "(" + x + "," + y + ")";
     }
 }
