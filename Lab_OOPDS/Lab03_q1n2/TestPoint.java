@@ -1,4 +1,4 @@
-package Lab_OOPDS.Lab03_q1;
+package Lab_OOPDS.Lab03_q1n2;
 
 import java.util.Scanner;
 
