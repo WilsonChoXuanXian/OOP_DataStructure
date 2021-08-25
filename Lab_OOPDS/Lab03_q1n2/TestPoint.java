@@ -16,8 +16,8 @@ public class TestPoint {
         y = input.nextInt();
         Point q = new Point(x,y);
 
-        System.out.print("2 points : " + p.toString());
-        System.out.println(" " + q.toString());
+        System.out.print("2 points : " + p);
+        System.out.println(" " + q);
 
         System.out.print("Distance = " + p.distance(q));
     }
