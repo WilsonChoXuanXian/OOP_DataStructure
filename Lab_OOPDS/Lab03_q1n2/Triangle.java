@@ -19,7 +19,7 @@ public class Triangle {
     private void calcPerimeter() {
         double distance_p1_p2 = points[0].distance(points[1]);
         double distance_p2_p3 = points[1].distance(points[2]);
-        double distance_p1_p3 = points[2].distance(points[1]);
+        double distance_p1_p3 = points[2].distance(points[0]);
 
         perimeter = distance_p1_p2 + distance_p2_p3 + distance_p1_p3;
     }
