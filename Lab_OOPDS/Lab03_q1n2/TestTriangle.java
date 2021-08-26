@@ -37,6 +37,6 @@ public class TestTriangle {
         }
 
         for(int i = 0; i < triangles.size(); i++)
-            System.out.println("Triangle " + i + ": " + triangles.get(i).toString());
+            System.out.println("Triangle " + i + ": " + triangles.get(i));
     }
 }
