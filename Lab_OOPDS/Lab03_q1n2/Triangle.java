@@ -25,10 +25,8 @@ public class Triangle {
     }
 
     public String toString() {
-        return "Points = " + 
-                    points[0] + " " + 
-                        points[1] + " " + 
-                            points[2] + 
-                ". Perimeter = " + perimeter;
+        return "Points = " + points[0] + " " + 
+                             points[1] + " " + 
+                             points[2] + ". Perimeter = " + perimeter;
     }
 }
