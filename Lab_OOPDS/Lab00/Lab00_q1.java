@@ -1,4 +1,4 @@
-package Lab_OOPDS;
+package Lab_OOPDS.Lab00;
 
 import java.util.Scanner;
 import java.util.Arrays;

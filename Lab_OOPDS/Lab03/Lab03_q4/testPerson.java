@@ -1,4 +1,4 @@
-package Lab_OOPDS.Lab03_q4;
+package Lab_OOPDS.Lab03.Lab03_q4;
 
 public class testPerson {
     public static void main (String[] args) {

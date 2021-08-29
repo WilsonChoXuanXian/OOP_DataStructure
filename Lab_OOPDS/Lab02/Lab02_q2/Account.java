@@ -1,4 +1,4 @@
-package Lab_OOPDS.Lab02_q2;
+package Lab_OOPDS.Lab02.Lab02_q2;
 
 public class Account {
     private int id;

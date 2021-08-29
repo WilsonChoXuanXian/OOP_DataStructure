@@ -1,4 +1,4 @@
-package Lab_OOPDS.Lab02_q1;
+package Lab_OOPDS.Lab02.Lab02_q1;
 
 public class Rectangle {
     private double width;
