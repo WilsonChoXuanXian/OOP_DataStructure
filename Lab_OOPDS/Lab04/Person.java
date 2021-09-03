@@ -139,7 +139,7 @@ class Lecturer extends Staff {
     }
 } */
 
-class testProgram {
+class TestProgram {
     public static void main (String[] args) {
         // exersice 1.1
         Person person = new Person("Ali");

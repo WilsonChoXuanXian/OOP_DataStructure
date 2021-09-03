@@ -3,7 +3,7 @@ package Lab_OOPDS.Lab02.Lab02_q2;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/* public class testAccount {
+/* public class TestAccount {
     public static void main (String[] args) {
         ArrayList<Account> accounts = new ArrayList<>();
 
@@ -55,7 +55,7 @@ import java.util.Scanner;
  */
 // ------------------------------Below are the tutor's answer---------------------------------
 
-public class testAccount {
+public class TestAccount {
     public static void main (String[] args) {
         ArrayList<Account> accounts = new ArrayList<>();
 

@@ -1,6 +1,6 @@
 package Lab_OOPDS.Lab03.Lab03_q4;
 
-public class testPerson {
+public class TestPerson {
     public static void main (String[] args) {
         Person person1 = new Person("Ali");
         Person person2 = new Person("Siti");
