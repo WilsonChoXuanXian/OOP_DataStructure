@@ -64,6 +64,15 @@ public class MyArrayList<E> {
         return e;
     }
 
+    public boolean remove(E e) {
+        if (indexOf(e) >= 0) {
+            remove(indexOf(e));
+            return true;
+        }
+        else
+            return false;
+    }
+
     public int indexOf(E e) {
         for (int i = 0; i < size; i++) {
             if (e.equals(data[i])) {
@@ -87,6 +96,25 @@ public class MyArrayList<E> {
         return result.toString() + "]";
     }
 
+    public void clear() {
+        data = (E[]) new Object [INITIAL_CAPACITY];
+        size = 0;
+    }
+
+    public boolean contains(E e) {
+        for (int i = 0; i < size; i++)
+            if (e.equals(data[i]))
+                return true;
+
+        return false;
+    }
+
+    public E set(int index, E e) {
+        checkIndex(index);
+        E old = data[index];
+        data[index] = e;
+        return old;
+    }
 }
 
 class TestMyArrayList {
@@ -115,8 +143,36 @@ class TestMyArrayList {
                     list.add(r.nextInt(100));
                     break;
                 case 2:
-                    
+                    index = input.nextInt();
+                    list.add(index, r.nextInt(100));
+                    break;
+                case 3:
+                    index = input.nextInt();
+                    System.out.println(list.get(index));
+                    break;
+                case 4:
+                    number = input.nextInt();
+                    System.out.println(list.indexOf(number));
+                    break;
+                case 5:
+                    index = input.nextInt();
+                    list.remove(index);
+                    break;
+                case 6:
+                    number = input.nextInt();
+                    list.remove(Integer.valueOf(number));
+                    break;
+                case 7:
+                    list.clear();
+                case 8:
+                    number = input.nextInt();
+                    System.out.println(list.contains(number));
+                    break;
+                case 9:
+                    index = input.nextInt();
+                    list.set(index, r.nextInt(100));
+                    break;
             }
-        } while (true);
+        } while (choice != 0);
     } 
 }
