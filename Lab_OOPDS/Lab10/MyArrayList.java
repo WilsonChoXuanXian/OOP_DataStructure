@@ -136,7 +136,7 @@ class TestMyArrayList {
             System.out.println("8 - Contain specified integer?");
             System.out.println("9 - Set new random integer at specified index");
             System.out.println("0 - Exit");
-            System.out.println("Command > ");
+            System.out.print("Command > ");
             choice = input.nextInt();
             switch (choice) {
                 case 1:
