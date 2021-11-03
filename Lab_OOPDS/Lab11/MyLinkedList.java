@@ -265,14 +265,23 @@ class TestMyArrayList {
                     list.set(index, r.nextInt(100));
                     break;
                 case 10:
+                    list.clear();
                     break;
                 case 11:
+                    number = input.nextInt();
+                    System.out.println(list.contains(number));
                     break;
                 case 12:
+                    number = input.nextInt();
+                    System.out.println(list.indexOf(number));
                     break;
                 case 13:
+                    index = input.nextInt();
+                    list.set(index, r.nextInt());
                     break;
                 case 14:
+                    number = input.nextInt();
+                    list.remove(number);
                     break;
             }
         } while (choice != 0);
