@@ -4,7 +4,7 @@
 package Lecture_OOPDS;
 
 public class Welcome {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         System.out.println("Hello World!!");
     }
 }
